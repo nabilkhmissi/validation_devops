@@ -3,7 +3,7 @@
   padding: 0;
   color: black;
   box-sizing: border-box;
-  font-size: 20px;
+  font-size: 18px;
   font-family: 'Karla', sans-serif;
   font-family: 'Montserrat', sans-serif;
   font-family: 'Poppins', sans-serif;
@@ -138,9 +138,11 @@ button:hover {
 .car-card {
   display: flex;
   flex-direction: column;
-  padding: 0.5rem;
+  padding: 1rem;
   background-color: white;
   justify-content: space-between;
+  border-radius: 15px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.093);
 }
 
 .car-card img {
@@ -154,13 +156,14 @@ button:hover {
 }
 
 .card-footer button {
-  background-color: orange;
+  border-color: black;
   border: none;
   padding: 0.4rem;
 }
 
 .card-footer button:hover {
-  background-color: rgb(255, 184, 51);
+  background-color: black;
+  color: white;
   cursor: pointer;
 }
 

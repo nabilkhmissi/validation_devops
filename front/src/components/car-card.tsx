@@ -21,7 +21,7 @@ export default function CardCard({ car }: Prop) {
                 </div>
                 <div className="card-footer">
                     <h3>${car.pricePerDay}/day </h3>
-                    <button style={car.available ? { backgroundColor: '#FF5C3D' } : {}}>Rent Now</button>
+                    <button style={{ borderRadius: 20 }}>Rent Now</button>
                 </div>
             </div>
         </div>
