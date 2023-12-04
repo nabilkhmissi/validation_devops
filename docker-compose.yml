@@ -1,0 +1,13 @@
+version: '3'
+services:
+  rentweheelz_front:
+    build:
+      context: ./front
+    ports:
+      - "80:80"
+
+  rentweheelz_server:
+    build:
+      context: ./server
+    ports:
+      - "3000:3000"
