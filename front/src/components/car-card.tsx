@@ -7,7 +7,7 @@ type Prop = {
 
 export default function CardCard({ car }: Prop) {
     return (
-        <div className="car-card" style={{ backgroundColor: "blue" }}>
+        <div className="car-card" style={{ backgroundColor: "red" }}>
             <div className="car-image">
                 <img src={car.image} alt="" />
             </div>
