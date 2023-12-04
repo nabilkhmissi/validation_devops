@@ -10,6 +10,7 @@ export default function Header() {
         window.addEventListener("scroll", () => {
             const headerElement = header.current;
             const scrollY = window.scrollY;
+            
             if (scrollY > 200) {
                 headerElement.style.backgroundColor = "white"
             } else {
