@@ -95,6 +95,11 @@ button:hover {
   outline: none;
 }
 
+.nav-actions button:hover {
+  background-color: black;
+  color: white;
+}
+
 .active::after {
   content: '';
   height: 5px;
