@@ -3,6 +3,7 @@ pipeline {
     stages {       
         stage("deploy") {
             steps {
+
                 
                 echo 'stop old container...'
                 sh "docker-compose down"
